@@ -2247,6 +2247,9 @@ blockquote {
 }
 
 @media only screen and (max-width: 1024px) {
+  .start-page .logo {
+    width: 60%;
+  }
   .header {
     position: absolute;
     width: 100%;
@@ -2462,9 +2465,10 @@ blockquote {
   }
 }
 
-
-
 @media only screen and (max-width: 768px) {
+  .start-page .logo {
+    width: 60% !important;
+  }
   .portfolio-grid figure {
     width: 50%;
   }
@@ -2522,8 +2526,11 @@ blockquote {
   }
 }
 
-
 @media only screen and (max-width: 480px) {
+  .start-page .logo {
+    width: 100% !important;
+  }
+
   .section-title-block.first-style .section-description {
     margin: 7px 0 0;
     width: 100%;
@@ -2586,8 +2593,6 @@ blockquote {
     width: 100%;
   }
 }
-
-
 
 /* =============================================================================
 9. Pricing
@@ -2806,7 +2811,7 @@ blockquote {
 
 .start-page .logo {
   width: 40%;
-  margin: 0 auto -50px;
+  margin: 10% auto;
 }
 .start-page .mask {
   content: '';
