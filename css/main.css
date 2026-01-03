@@ -2804,6 +2804,10 @@ blockquote {
   position: relative;
 }
 
+.start-page .logo {
+  width: 40%;
+  margin: 0 auto -50px;
+}
 .start-page .mask {
   content: '';
   position: absolute;

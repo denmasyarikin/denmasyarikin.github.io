@@ -192,7 +192,7 @@
             items: 3, // The number of items you want to see on the screen.
             loop: false, // Infinity loop. Duplicate last and first items to get loop illusion.
             navText: false,
-            autoHeight: true,
+            autoHeight: false,
             margin: 25,
             responsive : {
                 // breakpoint from 0 up
@@ -220,7 +220,7 @@
             loop: false, // Infinity loop. Duplicate last and first items to get loop illusion.
             navText: false,
             margin: 10,
-            autoHeight: true,
+            autoHeight: false,
             responsive : {
                 // breakpoint from 0 up
                 0 : {
